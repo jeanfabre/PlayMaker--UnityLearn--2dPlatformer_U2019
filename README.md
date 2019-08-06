@@ -9,8 +9,8 @@ This project is a work in progress:
 
 you need the following setup:
 
- - Unity 4.7.1 at least
- - PlayMaker 1.8.1f10
+ - Unity 2019.2.0 at least
+ - PlayMaker 1.9.0
  
  Improvements over the original version:
  
@@ -28,71 +28,12 @@ you need the following setup:
     -- Health Bar is following the Player, so this demonstrate important interaction between the 3d world and the UI Canvas.
 
 ## BenchMark
-This port is published and playable online. It serves as a comparison between a 100% PlayMaker solution and 100% scripted solution. You will find below benchmarks for the web Player, the Mac Application and and the IOS apps build targets.
+coming soon, see Unity 5 version for last benchmarks.
+
+https://github.com/jeanfabre/PlayMaker--UnityLearn--2dPlatformer
 
 
-### 100% PlayMaker WebPlayer
 
-You can play this version [here](http://htmlpreview.github.io/?https://github.com/jeanfabre/PlayMaker--UnityLearn--2dPlatformer/blob/master/Builds/PlayMakerVersion/PlayMakerVersion.html)
-
-#### Stats:
-
-- Average FPS: 52 -> 55
-- Memory Total: 74MB  
-- Memory allocation: 43MB
-- Build Size: 4.67MB
-
-
-### 100% Scripted WebPlayer
-
-You can play this version [here](http://htmlpreview.github.io/?https://github.com/jeanfabre/PlayMaker--UnityLearn--2dPlatformer/blob/master/Builds/OriginalVersion/OriginalVersion.html)
-
-#### Stats:
-
-- Average FPS: 53 -> 58 
-- Memory Total: 75MB  
-- Memory allocation: 44MB
-- Build Size: 5.00MB
-
-### 100% PlayMaker Mac Application
-
-#### Stats:
-
-- Average FPS: 59
-- Memory Total: 46MB  
-- Memory allocation: 17MB
-- Build Size: 58.5MB
-
-### 100% Scripted Mac Application
-
-#### Stats:
-
-- Average FPS: 59
-- Memory Total: 46MB  
-- Memory allocation: 18MB
-- Build Size: 60.2MB
-
-### 100% PlayMaker IOS ( IOS 8.1 on iPhone 5S)
-It's not really playable because of the Inputs and layout, but I made the test just to get some stats from Xcode
-
-#### Stats:
-
-- Average FPS: 29
-- Memory Total: 10MB  
-- Memory allocation: 9MB
-- CPU usage: 21%-75%
-- Memory : 79.6MB
-
-### 100% Scripted IOS ( IOS 8.1 on iPhone 5S)
-It's not really playable because of the Inputs and layout, but I made the test just to get some stats from Xcode
-
-#### Stats:
-
-- Average FPS: 29
-- Memory Total: 10MB  
-- Memory allocation: 10MB
-- CPU usage: 12%-74%
-- Memory : 61.9MB
 
 **Notes:**
 
