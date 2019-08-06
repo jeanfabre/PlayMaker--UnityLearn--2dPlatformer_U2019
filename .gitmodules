@@ -1,3 +1,6 @@
 [submodule "Assets/PlayMaker Utils"]
 	path = Assets/PlayMaker Utils
 	url = https://jeanfabre@github.com/jeanfabre/PlayMaker--Utils.git
+[submodule "Assets/PlayMaker ArrayMaker"]
+	path = Assets/PlayMaker ArrayMaker
+	url = https://jeanfabre@github.com/jeanfabre/PlayMaker--ArrayMaker--U4.3.4-SubModule-.git
